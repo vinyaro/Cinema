@@ -26,4 +26,3 @@ O sistema implementa gestão rigorosa de exceções customizadas, garantindo que
 
 *   **Armazenamento Secundário (Serialização):** O sistema salva e carrega automaticamente as coleções de objetos (Cinemas e Filmes) em arquivos binários (`.dat`) ao iniciar e finalizar, utilizando `ObjectOutputStream` e `ObjectInputStream`.
 *   **Métodos "Surpreendentes":** Demonstração de utilidade com métodos como `Filme.getDuracaoFormatada()` (conversão de segundos para HH:MM:SS) e `Sala.getStatusOcupacao()` (cálculo percentual de lotação).
-```
